@@ -10,22 +10,33 @@ h1{
 
 .col-lg-3{
   height: 638px;
-  background: #0E0E0D;
+ 
+  background:#000;
 }
 
 .col-lg-9{
    height: 638px;
   opacity: 0.7;
+  padding: 0;
   
 }
+/*
 .parallax{
-    background-image: url(../img/fondo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
-   height: 638px;
-  background-attachment: fixed;
+  background-image: url(../img/fondo.jpg);
+
+
+ 
+  
 }
+.parallax:hover{
+  -webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+
+}
+*/
 
 nav ul{
     list-style:none;
@@ -38,11 +49,11 @@ nav ul li{
     color: white;
     margin-top: 40px;
     text-align: center; 
-    	transition:.5s all ease;
+    transition:.5s all ease;
 }
 
 nav ul li:hover{
-    	transition:.5s all ease;
+    transition:.5s all ease;
     letter-spacing: 3px;
     box-shadow: 0px 3px 0px #fff;
     cursor: pointer;  
@@ -54,3 +65,27 @@ nav ul li:hover{
   width: 100%;
   height: auto;
 }
+.parallax > img {
+-webkit-transition:all 5s ease; /* Safari y Chrome */
+-moz-transition:all 5s ease; /* Firefox */
+-o-transition:all 5s ease; /* IE 9 */
+-ms-transition:all 5s ease; /* Opera */
+height: 638px;
+
+}
+
+.parallax:hover > img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+.parallax {/*Ancho y altura son modificables al requerimiento de cada uno*/
+overflow:hidden;
+background-attachment: fixed;
+  
+}
+
+

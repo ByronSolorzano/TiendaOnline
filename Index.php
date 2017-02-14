@@ -15,46 +15,45 @@
     </head>
     <body>
 
-        <!--Se agrega en menu navegador-->
+            <!--Se agrega en menu navegador-->
+
         <header>
         <div class="container-fluid ">
             <div class="row">
                 <div class="col-xs-3 col-sm-4 col-md-4 col-lg-3">
                     <a href="#"><img src="img/Logo.png" class="im-po"/></a>
-                 <nav>
-                    <ul>
-                        <li><a href="#"></a>Productos</li>
-                        <li><a href="#"></a>Servicios</li>
-                        <li><a href="#"></a>Nosotros</li>
-                    </ul>
-                    </nav>
+                        <nav>
+                            <ul>
+                                <li><a href="#"></a>Productos</li>
+                                <li><a href="#"></a>Servicios</li>
+                                <li><a href="#"></a>Nosotros</li>
+                            </ul>
+                        </nav>
                 </div>
-
-                
                   <div class="col-xs-9 col-sm-8 col-md-8 col-lg-9 parallax">
-                   
+                    <img src="img/fondo.jpg"/>
                   </div>                  
             </div>
         </div>
         </header>
 
-        <section class="main container">
+        <div class="container">
             <div class="row">
-
-            <p>
-                as,fjahsflshdfskdjf
-            </p>
-
+                <p>sdfsdfsdfsdf</p>
+                 <p>sdfsdfsdfsdf</p>
+                  <p>sdfsdfsdfsdf</p>
+                   <p>sdfsdfsdfsdf</p>
+                    <p>sdfsdfsdfsdf</p>
             </div>
-        </section>
+        </div>
 
-        
+      
        
 
 
     <!--Importar jQuery y Js de boots-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/inicia.js"></script>
+    <script type="text/javascript" src="js/Inicializar.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </body>
 </html>
