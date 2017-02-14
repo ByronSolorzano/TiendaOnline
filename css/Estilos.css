@@ -1,0 +1,56 @@
+body{
+  background: black;
+}
+h1{
+  color: white;
+}
+.ho{
+  background: black;
+}
+
+.col-lg-3{
+  height: 638px;
+  background: #0E0E0D;
+}
+
+.col-lg-9{
+   height: 638px;
+  opacity: 0.7;
+  
+}
+.parallax{
+    background-image: url(../img/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+   height: 638px;
+  background-attachment: fixed;
+}
+
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+    padding-top: 40px;
+}
+
+nav ul li{
+    color: white;
+    margin-top: 40px;
+    text-align: center; 
+    	transition:.5s all ease;
+}
+
+nav ul li:hover{
+    	transition:.5s all ease;
+    letter-spacing: 3px;
+    box-shadow: 0px 3px 0px #fff;
+    cursor: pointer;  
+
+}
+.im-po{
+  margin: 10px;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
